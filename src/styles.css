@@ -1,0 +1,170 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para o conteúdo das páginas */
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.banner {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;  
+}
+
+/* Estilos para as caixas de texto */
+.text-box {
+  background-color: #f9f9f9; /* Cor de fundo da caixa de texto */
+  border: 1px solid #ccc; /* Borda da caixa de texto */
+  padding: 20px; /* Espaçamento interno da caixa de texto */
+  margin-bottom: 20px; /* Margem inferior para separar as caixas de texto */
+}
+
+/* Estilos para os textos dentro das caixas */
+.text-box h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text-box p {
+  font-family: 'Arial', sans-serif;
+  color: #666;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 0; /* Remover a margem inferior padrão para evitar espaço extra */
+}
+
+/* Estilos para a imagem de perfil */
+.profile_image {
+  width: 150px; /* Ajuste conforme necessário */
+  height: 150px; /* Ajuste conforme necessário */
+  border-radius: 50%; /* Bordas arredondadas para criar o efeito de círculo */
+  overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites da caixa */
+  margin-bottom: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.profile_image img {
+  width: 100%; /* Garante que a imagem preencha a caixa de forma responsiva */
+  height: 100%; /* Garante que a imagem preencha a caixa de forma responsiva */
+  object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.founders {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb); /* Define o degradê verticalmente */
+  padding: 40px 0; /* Adiciona um espaçamento interno */
+}
+
+.founder-profile {
+  display: flex; /* Utiliza o layout flexível para alinhar os elementos */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  justify-content: center; /* Centraliza horizontalmente os elementos */
+}
+.profile_image {
+  width: 150px; /* Ajuste conforme necessário */
+  height: 150px; /* Ajuste conforme necessário */
+  border-radius: 50%; /* Bordas arredondadas para criar o efeito de círculo */
+  border-style: solid; /* Adiciona uma borda sólida */
+  overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites da caixa */
+  margin-right: 20px; /* Espaço entre a imagem e as informações do fundador */
+}
+
+.profile_image img {
+  width: 100%; /* Garante que a imagem preencha a caixa de forma responsiva */
+  height: 100%; /* Garante que a imagem preencha a caixa de forma responsiva */
+  object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+}
+
+.founder-info {
+  text-align: left; /* Alinha as informações do fundador à esquerda */
+}
+
+.founder-info h3 {
+  margin-bottom: 5px; /* Espaço entre o nome do fundador e a descrição */
+}
+
+.founder-info p {
+  font-size: 1em; /* Tamanho de fonte ligeiramente menor */
+  color: #666; /* Cor de texto mais suave */
+}
+
+.cta {
+  text-align: left; /* Centraliza o conteúdo horizontalmente */
+  margin-bottom: 20px; /* Espaço entre o CTA e o conteúdo abaixo */
+}
+
+.socialIcons {
+  display: flex; /* Utiliza o layout flexível para alinhar os elementos */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  justify-content: center; /* Centraliza horizontalmente os elementos */
+  margin-top: 20px; /* Espaço entre os ícones e o conteúdo acima */
+}
